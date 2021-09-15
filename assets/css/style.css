@@ -23,7 +23,6 @@ header h1 {
   margin: 0;
   display: inline;
 }
-
 header a {
   text-decoration: none;
   color: #fce138;
@@ -70,22 +69,6 @@ footer a {
 section {
   padding: 60px;
 }
-.section-title {
-  font-size: 55px;
-  color: #024e76;
-  margin-bottom: 35px;
-  padding: 0 100px 20px 100px;
-  display: inline-block;
-  border-bottom: 3px solid;
-}
-
-.primary-border {
-  border-color: #fce138;
-}
-
-.secondary-border {
-  border-color: #39a6b2;
-}
 
 /* Hero Style Start */
 .hero {
@@ -95,7 +78,6 @@ section {
   background-position: center;
   position: relative;
 }
-
 /* Hero Style End */
 
 .hero-form {
@@ -113,7 +95,6 @@ section {
   font-size: 24px;
   margin: 0;
 }
-
 .hero-form p {
   margin: 5px 0 15px 0;
 }
@@ -143,7 +124,6 @@ section {
 .intro {
   text-align: center;
 }
-
 
 .intro p {
   line-height: 1.7;
@@ -177,6 +157,24 @@ section {
   color: #39a6b2;
   font-size: 23px;
 }
+
 .steps span {
   font-size: 38px;
+}
+
+.section-title {
+  font-size: 55px;
+  color: #024e76;
+  margin-bottom: 35px;
+  padding: 0 100px 20px 100px;
+  display: inline-block;
+  border-bottom: 3px solid;
+}
+
+.primary-border {
+  border-color: #fce138;
+}
+
+.secondary-border {
+  border-color: #39a6b2;
 }
