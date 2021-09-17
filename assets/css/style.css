@@ -23,7 +23,6 @@ header h1 {
   margin: 0;
   display: inline;
 }
-
 header a {
   text-decoration: none;
   color: #fce138;
@@ -71,11 +70,6 @@ section {
   padding: 60px;
 }
 
-id {
-
-}
-
-
 /* Hero Style Start */
 .hero {
   background-image: url('../images/hero-bg.jpg');
@@ -84,7 +78,6 @@ id {
   background-position: center;
   position: relative;
 }
-
 /* Hero Style End */
 
 .hero-form {
@@ -102,7 +95,6 @@ id {
   font-size: 24px;
   margin: 0;
 }
-
 .hero-form p {
   margin: 5px 0 15px 0;
 }
@@ -234,15 +226,6 @@ id {
   text-align: right;
 }
 
-.section-title {
-  font-size: 55px;
-  display: inline-block;
-  padding: 0 100px 20px 100px;
-  border-bottom: 3px solid;
-  margin-bottom: 35px;
-  color: #024e76;
-}
-
 /* REACH OUT STYLES START */
 .contact {
   text-align: center;
@@ -257,6 +240,7 @@ id {
   width: 400px;
   height: 400px;
 }
+
 .contact-info div {
   width: 410px;
   display: inline-block;
@@ -265,3 +249,22 @@ id {
   margin: 30px 0 0 60px;
   color: white;
 }
+
+.contact-info h3 {
+  color: #fce138;
+  font-size: 32px;
+}
+
+.contact-info p,
+.contact-info address {
+  margin: 20px 0;
+  line-height: 1.5;
+  font-size: 20px;
+  font-style: normal;
+}
+
+.contact-info a {
+  color: #fce138;
+}
+
+/* REACH OUT STYLES END */
